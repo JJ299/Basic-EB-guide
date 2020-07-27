@@ -37,7 +37,7 @@ a {
 }
 
 .main-nav li {
-    padding: .4em 0;
+    padding: .8em 0;
 }
 
 /* BANNER */
@@ -47,15 +47,13 @@ a {
     margin: 2em 0;
     text-align: center;
     padding: 2em 0 3em 0;
+    text-transform: uppercase;
 }
 
 .motto,
 .tagline {
     color: #db5656;
 }
-
-.tagline {
-
 
 /*SPECIAL EFFECTS*/
 
