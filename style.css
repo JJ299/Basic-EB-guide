@@ -1,3 +1,5 @@
+/* BASIC LAYOUT */
+
 *{
     margin: 0;
     padding: 0;
@@ -14,8 +16,20 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-h1 {
-	background: black;
-	color: white;
+a {
+    text-decoration: none;
 }
 
+/* HEADER */
+
+.main-header {
+    text-transform: uppercase;
+}
+
+
+/* ETC */
+.clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
