@@ -40,6 +40,12 @@ a {
     padding: .4em 0;
 }
 
+/*SPECIAL EFFECTS*/
+
+.main-nav a:hover,
+.name a:hover{
+    color: #ff7a59;
+}
 
 /* ETC */
 .clearfix::after {
