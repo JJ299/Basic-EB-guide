@@ -40,6 +40,23 @@ a {
     padding: .4em 0;
 }
 
+/* BANNER */
+
+.banner {
+    background-color: #f5c4ae;
+    margin: 2em 0;
+    text-align: center;
+    padding: 2em 0 3em 0;
+}
+
+.motto,
+.tagline {
+    color: #db5656;
+}
+
+.tagline {
+
+
 /*SPECIAL EFFECTS*/
 
 .main-nav a:hover,
