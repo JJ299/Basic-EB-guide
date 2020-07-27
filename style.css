@@ -20,6 +20,11 @@ a {
     text-decoration: none;
 }
 
+.col {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
 /* HEADER */
 
 .main-header {
@@ -55,12 +60,66 @@ a {
     color: #db5656;
 }
 
+/* INTRODCUTION */
+
+.intro {
+    
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-size: 180%;
+    text-align: center;
+}
+
+h2:after { /* MAKES LINE FOR ALL H2 HEADING */
+    display: block;
+    height: 2px;
+    background-color: #db5656;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+h4 p {
+    margin-top: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.primary {
+    margin-bottom: 2em;
+    line-height: 30px;
+}
+
+.resize {
+   height: 10%;
+   width: 10%;
+   display: block;
+}
+
 /*SPECIAL EFFECTS*/
 
-.main-nav a:hover,
-.name a:hover{
-    color: #ff7a59;
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: .5em;
 }
+
+.name a:hover,
+.name a:active {
+    color: #db5656
+}
+
+
 
 /* ETC */
 .clearfix::after {
@@ -68,3 +127,4 @@ a {
         display: table;
         clear: both;
     }
+
