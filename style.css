@@ -24,6 +24,20 @@ a {
 
 .main-header {
     text-transform: uppercase;
+    text-align: center;
+    font-size: .8em;
+}
+
+.name a {
+    color: #282b28;
+}
+
+.main-nav a {
+    color: #69d175;
+}
+
+.main-nav li {
+    padding: .4em 0;
 }
 
 
