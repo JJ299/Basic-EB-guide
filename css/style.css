@@ -25,9 +25,26 @@ a {
     padding-left: 1em;
 }
 
+/* PARAGRAPH */
+
 p {
     font-size: 80%;
-    line-height: 25px;
+    line-height: 160%;
+}
+
+.long_copy {
+    width: 70%;
+    margin-left: 15%;
+}
+
+/*ICONS*/
+
+.icon_big {
+    font-size: 300%;
+    display: block;
+    color: #f5c4ae ;
+    margin-bottom: 10px;
+
 }
 
 /* HEADER */
@@ -54,7 +71,7 @@ p {
 
 .banner {
     background-color: #f5c4ae;
-    margin: 2em 0;
+    margin: 3em 0;
     text-align: center;
     padding: 2em 0 3em 0;
     text-transform: uppercase;
@@ -92,13 +109,17 @@ h3 {
     font-size: 150%;
 }
 
-.center {
-    text-align: center;
-}
-
 .primary {
     margin-bottom: 2em;
 }
+
+/*EATERIES*/
+
+.eateries {
+    background-color: #ebebeb;
+    padding-top: 2em;
+}
+
 
 
 /*SPECIAL EFFECTS*/
@@ -111,7 +132,7 @@ h3 {
 
 .name a:hover,
 .name a:active {
-    color: #db5656
+    color: #db5656;
 }
 
 
@@ -123,7 +144,13 @@ h3 {
         clear: both;
     }
 
-.s_m_t {
+.small_margin {
     margin-top: 10px;
 }
+
+.big_margin {
+    margin-top: 3em;
+}
+
+
 
