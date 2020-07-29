@@ -120,7 +120,16 @@ h3 {
     padding-top: 2em;
 }
 
+.images_container {
+    text-align: center;
+    margin-top: 3em;
+}
 
+.images_container img{
+   width: 80%;
+   height: auto; 
+   padding-bottom: 2em;  
+}
 
 /*SPECIAL EFFECTS*/
 
@@ -154,3 +163,21 @@ h3 {
 
 
 
+/* FOR DESKTOP VIEW FOR 2x2 IMAGE IN EATERIES 
+
+.images_container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container .image {
+    width: 50%;
+}
+
+.container img {
+    width: calc(100% - (20px * 2));
+    margin: 20px;
+}
+
+*/
