@@ -25,6 +25,11 @@ a {
     padding-left: 1em;
 }
 
+p {
+    font-size: 80%;
+    line-height: 25px;
+}
+
 /* HEADER */
 
 .main-header {
@@ -87,24 +92,14 @@ h3 {
     font-size: 150%;
 }
 
-h4 p {
-    margin-top: 10px;
-}
-
 .center {
     text-align: center;
 }
 
 .primary {
     margin-bottom: 2em;
-    line-height: 30px;
 }
 
-.resize {
-   height: 10%;
-   width: 10%;
-   display: block;
-}
 
 /*SPECIAL EFFECTS*/
 
@@ -127,4 +122,8 @@ h4 p {
         display: table;
         clear: both;
     }
+
+.s_m_t {
+    margin-top: 10px;
+}
 
