@@ -123,12 +123,19 @@ h3 {
 .images_container {
     text-align: center;
     margin-top: 3em;
+    position: relative;
 }
 
 .images_container img{
    width: 80%;
    height: auto; 
    padding-bottom: 2em;  
+}
+
+.captions {
+    position: absolute;
+    top: 50%;
+    width: 100%;
 }
 
 /*SPECIAL EFFECTS*/
