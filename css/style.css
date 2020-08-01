@@ -118,7 +118,7 @@ h3 {
 
 .eateries {
     background-color: #ebebeb;
-    padding-top: 2em;
+    padding: 2em 0;
 }
 
 .images_container {
@@ -129,18 +129,8 @@ h3 {
 .images_container img{
    width: 80%;
    height: auto; 
-   margin-top: 2em;
-}
-
-.captions {
-    position: absolute;
-    bottom: 0;
-    left: 10%;
-    width: 80%;
-    height: 20%;
-    
-    background-color: rgba(0,0,0,0.75);
-    color: white;
+   padding-top: 2em;
+  
 }
 
 /*SPECIAL EFFECTS*/
