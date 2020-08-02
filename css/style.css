@@ -48,6 +48,14 @@ p {
 
 }
 
+.icon_moderate {
+    font-size: 150%;
+    display: block;
+    color: #f5c4ae ;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
 /* HEADER */
 
 .main-header {
@@ -133,6 +141,9 @@ h3 {
   
 }
 
+/*RECREATION*/
+
+
 /*SPECIAL EFFECTS*/
 
 .main-nav li a:hover,
@@ -167,7 +178,10 @@ h3 {
     margin-left: 2em;
 }
 
-
+.left {
+    text-align: left;
+    margin-left: 100px;
+}
 
 /* FOR DESKTOP VIEW FOR 2x2 IMAGE IN EATERIES 
 
