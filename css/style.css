@@ -143,6 +143,16 @@ h3 {
 
 /*RECREATION*/
 
+/*HOUSING*/
+
+.location {
+    background-color: #ebebeb;
+    margin: 3em 0;
+    text-align: center;
+    padding: 2em 0 3em 0;
+    text-transform: uppercase;
+}
+
 
 /*SPECIAL EFFECTS*/
 
